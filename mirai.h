@@ -3,13 +3,13 @@ struct table_value_m68k {
     ushort val_len;
 };
 
-struct table_value_16bit {
+struct table_value_32bit {
     char *val;
     ushort val_len;
     ushort padding;
 };
 
-struct table_value_32bit {
+struct table_value_64bit {
     char *val;
     ushort val_len;
     ushort padding1;
